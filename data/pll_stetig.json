@@ -1,0 +1,129 @@
+{
+ "quelle": "tools/pll_make_stetig.py",
+ "stand": "2026-11-21",
+ "parameter": "20 erfundene Gauß-Kuppen, Breite 0.08 * Wurzel(d), 10 Instanzen je Zelle, 300 Starts je Instanz und Verfahren (Abschnitt mehr_starts: 3000 Starts, nur d = 4 und Newton); Strom A = Instanzen 0 bis 9, Strom B = Instanzen 100 bis 109; Sattelanteil = Mittel je Instanz über die Instanzen mit mindestens einem gefundenen Punkt",
+ "zellen": {
+  "A": {
+   "2|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.4926666666666667,
+    "punkte_je_instanz": 19.1,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.47074240394445
+   },
+   "2|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.46299999999999997,
+    "punkte_je_instanz": 19.1,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.474201257182715
+   },
+   "4|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.08199999999999999,
+    "punkte_je_instanz": 17.9,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.8313781184988616
+   },
+   "4|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.09333333333333334,
+    "punkte_je_instanz": 18.1,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.853872155707587
+   },
+   "8|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.011666666666666667,
+    "punkte_je_instanz": 3.2,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.9833333333333334
+   },
+   "8|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.0013333333333333335,
+    "punkte_je_instanz": 0.4,
+    "instanzen_mit_punkten": 4,
+    "sattelanteil": 1.0
+   }
+  },
+  "B": {
+   "2|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.4416666666666667,
+    "punkte_je_instanz": 19.6,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.48211476711530094
+   },
+   "2|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.4056666666666667,
+    "punkte_je_instanz": 19.5,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.48431149825940045
+   },
+   "4|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.07866666666666666,
+    "punkte_je_instanz": 17.0,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.7810282510746906
+   },
+   "4|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.079,
+    "punkte_je_instanz": 16.2,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.8209962406015038
+   },
+   "8|newton": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.008333333333333335,
+    "punkte_je_instanz": 2.4,
+    "instanzen_mit_punkten": 9,
+    "sattelanteil": 0.8888888888888888
+   },
+   "8|lm": {
+    "instanzen": 10,
+    "starts": 300,
+    "konvergenz": 0.0023333333333333335,
+    "punkte_je_instanz": 0.6,
+    "instanzen_mit_punkten": 5,
+    "sattelanteil": 1.0
+   }
+  }
+ },
+ "mehr_starts": {
+  "A": {
+   "4|newton": {
+    "instanzen": 10,
+    "starts": 3000,
+    "konvergenz": 0.08936666666666666,
+    "punkte_je_instanz": 49.5,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.7261123662542328
+   }
+  },
+  "B": {
+   "4|newton": {
+    "instanzen": 10,
+    "starts": 3000,
+    "konvergenz": 0.07596666666666667,
+    "punkte_je_instanz": 42.8,
+    "instanzen_mit_punkten": 10,
+    "sattelanteil": 0.6905110051189484
+   }
+  }
+ }
+}

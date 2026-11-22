@@ -1,0 +1,70 @@
+{
+ "quelle": "tools/pll_make_frozen.py zufall10",
+ "stand": "2026-11-21",
+ "zufall": "SplitMix64; Strom A = Zufalls-Seeds 100000 bis 100029, Strom B = 200000 bis 200029 (Zufallskoordinaten: Instanzen 0 bis 29 bzw. 30 bis 59 der Basis)",
+ "parameter": "Rundtour mit Zufallskoordinaten der gemeinsamen Basis, n in [10], euklidisch, auf 1e-9 gerundet, 2-opt, 30 Instanzen je Zelle",
+ "zellen": {
+  "A": {
+   "gleich|10": {
+    "instanzen": 30,
+    "nu": 0.0,
+    "anteil_mit_gleichem": 0.0,
+    "anteil_groesstes": 0.0,
+    "schwach": 2.3,
+    "streng": 2.3,
+    "geschlossen": 2.3,
+    "plateaus": 0.0,
+    "anteil_schein": 0.0,
+    "faktor": 1.0,
+    "schwach_ungleich_streng": 0,
+    "mehrere_globale_optima": 0,
+    "nu_max": 0.0
+   },
+   "cluster|10": {
+    "instanzen": 30,
+    "nu": 0.0,
+    "anteil_mit_gleichem": 0.0,
+    "anteil_groesstes": 0.0,
+    "schwach": 1.9666666666666666,
+    "streng": 1.9666666666666666,
+    "geschlossen": 1.9666666666666666,
+    "plateaus": 0.0,
+    "anteil_schein": 0.0,
+    "faktor": 1.0,
+    "schwach_ungleich_streng": 0,
+    "mehrere_globale_optima": 0,
+    "nu_max": 0.0
+   },
+   "gitter|10": {
+    "instanzen": 30,
+    "nu": 0.0,
+    "anteil_mit_gleichem": 0.0,
+    "anteil_groesstes": 0.0,
+    "schwach": 3.1333333333333333,
+    "streng": 3.1333333333333333,
+    "geschlossen": 3.1333333333333333,
+    "plateaus": 0.0,
+    "anteil_schein": 0.0,
+    "faktor": 1.0,
+    "schwach_ungleich_streng": 0,
+    "mehrere_globale_optima": 0,
+    "nu_max": 0.0
+   },
+   "netz|10": {
+    "instanzen": 30,
+    "nu": 0.0,
+    "anteil_mit_gleichem": 0.0,
+    "anteil_groesstes": 0.0,
+    "schwach": 1.6666666666666667,
+    "streng": 1.6666666666666667,
+    "geschlossen": 1.6666666666666667,
+    "plateaus": 0.0,
+    "anteil_schein": 0.0,
+    "faktor": 1.0,
+    "schwach_ungleich_streng": 0,
+    "mehrere_globale_optima": 0,
+    "nu_max": 0.0
+   }
+  }
+ }
+}
